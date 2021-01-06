@@ -1,0 +1,35 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+
+/* target the class of inline-block below */
+.inline-block {
+  display:inline-block;
+  padding:15px;
+}
+
+/* target the class of .left below */
+.left {
+  height:500px;
+  float:left;
+  width:30%;
+  background-color:lightblue;
+  text-align:center;
+}
+
+/* target the class of .right below */
+.right {
+  height:500px;
+  float:left;
+  width:70%;
+  background-color:lightgreen;
+}
+
+.card {
+  display:inline-block;
+  background-color: #C6C6C6;
+  border-radius:5px;
+  height:200px;
+  width:150px;
+}

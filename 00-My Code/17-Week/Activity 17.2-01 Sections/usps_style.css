@@ -6,6 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
   }
   #pageTopic {
      text-align: center;
@@ -54,6 +56,19 @@
       font-size: 26px;
       line-height:28px;
   }
+.typeContainer {
+    font-size:34px;
+}
+.light {
+    font-weight:200;
+}
+.regular {
+    font-weight:400;
+}
+.bold {
+    font-weight:800;
+    font-variant:small-caps;
+}
 
 /* Primary Color */
 .colorContainer{
@@ -64,6 +79,8 @@
     height: 200px;
     width: 170px;
     border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 .hexCode{
     padding: 15px;
@@ -114,6 +131,7 @@
     font-size: 18px;
     font-weight: 400;
     color:white;
+    border-radius: 18px;
 }
 .primary {
     background-color:#2B459A;
@@ -154,4 +172,5 @@ img {
     margin: 15px;
     padding: 15px;
     border: 1px solid black;
+    border-radius:18px
 }
