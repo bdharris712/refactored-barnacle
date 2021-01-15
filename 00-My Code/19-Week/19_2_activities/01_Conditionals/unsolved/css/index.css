@@ -1,0 +1,44 @@
+.tabContainer {
+  max-width: 500px;
+  background-color: #F4F4F4;
+  margin: 0 auto;
+}
+.tab {
+  display:inline-block;
+  padding: 15px 25px;
+  width: 75px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: arial, helvetica;
+  cursor: pointer;
+}
+.tabBar {
+  background-color:#F04F04;
+}
+.tab1 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.tab2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.active {
+  background-color: #F4F4F4;
+  border-right:solid 1px black;
+  border-left:solid 1px black;
+  color:black;
+}
+#tabContent1{
+
+}
+#tabContent2 {
+  display:none;
+}
+.grid {
+
+}
+.listItem {
+  padding: 18px;
+}
