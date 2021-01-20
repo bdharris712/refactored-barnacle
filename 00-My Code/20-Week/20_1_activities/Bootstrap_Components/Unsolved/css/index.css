@@ -68,11 +68,6 @@ a {
    opacity:80%;
  }
 
- .carousel-indicators {
-   padding-bottom:20px;
-   padding-top:10px;
- }
-
  .carousel-control-prev {
    background-color:black;
    opacity:80%;
@@ -81,4 +76,8 @@ a {
  .carousel-control-next {
   background-color:black;
   opacity:80%;
+}
+
+body {
+  font-family:'Montserrat Alternates';
 }
